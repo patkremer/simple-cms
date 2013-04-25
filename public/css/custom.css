@@ -1,0 +1,106 @@
+body {
+    background-color: #EBEBEB;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Tauri', sans-serif, Arial;
+  font-weight: 400;
+}
+a {color: #730D3A}
+
+header {
+  height: 100px;
+  padding: 10px 0 10px 0;
+}
+/*
+* Footer style
+*/
+#foot {
+  margin-left: -20px;
+  margin-right: -20px;
+  font-weight: bold;
+}
+footer {
+    text-align: center;
+}
+
+#copyright {
+    text-align: center;
+}
+
+
+
+/*
+* Section_post styles
+*/
+.section_post {
+    box-shadow: 5px 5px 5px 5px #888888;
+    padding: 10px;
+    margin-top: 15px;
+}
+.section_post p {
+  padding-left: 20px;
+}
+
+/*
+* Blog
+*/
+.blog-post {
+  box-shadow: 5px 5px 5px 5px #888888;
+}
+.blog-post p {
+  padding-left: 5px;
+}
+.blog-post h5 {
+  color:#0D6886;
+  font-size: .6em;
+}
+
+.sidebar {
+  padding: 10px;
+  margin-left: 20px;
+}
+.sidebar h4 {
+  font-size: 16px;
+}
+.sidebar a {
+  font-size: 12px;
+  color:#0080C0;
+}
+.sidebar li {
+  padding-left: 15px;
+}
+
+.articles li:hover {
+  background-color: rgba(182, 207, 231, 0.3);
+  border-radius: 10px;
+  padding: 0;
+}
+
+/*
+* responsive header
+*/
+@media (min-width: 1200px) {
+  .sidebar {
+    margin-left: 80px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .sidenav {
+    margin: 40px -50px 0;
+  }
+  
+}
+
+@media (max-width: 767px) {
+  .sidebar {
+    margin-left: 0;
+  }
+}
+@media (max-width: 480px) { 
+  .sidebar {
+    margin-left: 0;
+  }
+
+}
